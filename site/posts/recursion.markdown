@@ -17,10 +17,10 @@ $T$ is obviously not empty, consider the union $t$ of sets in $T$, which obvioul
 satisfies (1), (2), and is a subset of $T$.  
 We prove that (3) for any $(n, x)$ and $(n, y)$ in $t$, $x = y$.  
 $t$ contains $(0, a)$, assume $t$ also contains some $(0, b)$ that $b \neq a$,
-then a set $t' = t - (0, b)$ is also an element of $T$, which contracts $t' \in t$,
+then a set $t' = t - (0, b)$ is also an element of $T$, which contracts $t' \subset t$,
 so for $n = 0$, (3) holds.  
 Now assume for $n$ (3) holds. Let the ordered pair in $t$ whose first element
-if $n$ be $(n, x)$, so $(n^+, f(x))$ in $t$, if there is some $(n^+, y)$ in $t$ that
-$y \neq f(x)$, then the set $t''$ = t - (n^+, y)$ still satisfy (1) and (2), so $t''$
-is an element of $T$, which contracts $t'' \in t$. So for n^+ (3) holds.  
+if $n$ be $(n, x)$, so $(n^+, f(x))$ in $t$, if there is some $(n^+, y)$ \in $t$ that
+$y \neq f(x)$, then the set $t'' = t - (n^+, y)$ still satisfy (1) and (2), so $t''$
+is an element of $T$, which contracts $t'' \subset t$. So for $n^+$ (3) holds.  
 Now we've proven $t$ is such a function $u$.
